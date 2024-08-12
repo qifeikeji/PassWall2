@@ -35,7 +35,7 @@ jobs:
           /etc/php
         sudo -E apt-get -y purge azure-cli* docker* ghc* zulu* hhvm* llvm* firefox* google* dotnet* aspnetcore* powershell* openjdk* adoptopenjdk* mysql* php* mongodb* moby* snap* || true
         sudo -E apt-get update
-        sudo -E apt-get -y install ack antlr3 asciidoc autoconf automake autopoint binutils bzip2 diffutils findutils flex gawk gcc-6 getopt grep install-info libc6-dev libz-dev make perl python3 rsync subversion unzip which
+        sudo -E apt-get -y install ack antlr3 asciidoc autoconf automake autopoint binutils bzip2 diffutils findutils flex gawk gcc-6 getopt grep install-info libc6-dev libz-dev libpcre3 libpcre3-dev make perl python3 rsync subversion unzip which
         sudo -E apt-get -y autoremove --purge
         sudo -E apt-get clean
 
